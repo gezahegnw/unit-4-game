@@ -1,0 +1,60 @@
+body {
+    background-color:#ccc;    
+
+}
+
+.main-container{
+    margin: 0 0 150px 60px;
+}
+.title{
+    font-size: 30px;
+    color: brown;
+}
+.instruction{
+    margin: 20px 200px 20px 0;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 10px 10px 40px 20px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.text-center {
+    color: whitesmoke;
+    background-color:  orange;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.counter {
+ background-color: aqua;
+ display: inline-block;
+ padding: 10px 40px 20px 10px;
+ margin: 20px 0 20px 0;
+ font-size: 30px;
+ line-height: 50px;
+
+}
+
+.numTargetting{
+    font-size: 60px;
+    background-color:rgb(32, 204, 118);
+    display: inline-block;
+    padding: 10px 150px 30px 10px;
+}
+
+.totalScore{
+    background-color:rgb(32, 204, 118);
+    font-size:30px;  
+    display: inline-block;
+    margin: 20px 0 20px 0;
+    padding: 5px 50px 5px 5px;
+}
+.numOfScore{
+    background-color:rgb(32, 204, 118);
+    font-size: 40px;
+    display: inline;
+    padding: 10px 200px 30px 10px;
+
+}

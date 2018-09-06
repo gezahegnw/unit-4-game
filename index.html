@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+         crossorigin="anonymous">
+	</script>  
+		<link rel="stylesheet" href="assets/css/reset.css">   
+	<link rel="stylesheet" href="assets/css/style.css"> 
+
+</head>
+<body>
+	<div>
+	    <h1 class="text-center">Crystal Collector Game</h1>
+	</div>
+		<div class="main-container">
+	      	<div class="instruction">
+					<h3 class="title">How to Play!</h3>
+				<p>
+					You will be shown  a random number at the start of each game.
+				</p>
+				<p>
+					There are four crystals below.  When you  click on a crystal images, it will add a specific amount of points to your total score. 
+				</p>
+				<p>
+                    You will  win if your total scores matches the random number.
+                </p>
+                <p>
+                    You will  loss if your scores goes above the random number.
+                </p>
+				<p>
+					The value of each crystal images is hidden from you until you click on crystals.
+				</p>
+				<p>
+                    The game will restarts whenever  you win or loss.
+				</p>
+			</div>
+			<div>
+				<div class=" numTargetting" ></div>
+			</div>
+			<div class="counter">
+				<p class="  win-counter"></p>
+				<p class="  loss-counter"></p>
+			</div>
+			<div>
+				<div class=" crystalImgs"></div>
+			</div>
+			<div>
+				<div class=" totalScore">
+					<p>Your total score is:</p>
+				</div>
+			</div>
+			<div>
+				<div class="numOfScore"></div>
+			</div>
+		</div>
+	
+	<!-- Added link to Javascript-->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
